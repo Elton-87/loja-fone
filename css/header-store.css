@@ -97,8 +97,12 @@
         position: absolute;
         top: 0;
         left: 0;
+        transform: translateX(-88%);
         background-color: #fff;
         color: #000;
+    }
+    .header-store .-active[type="search"] {
+        transform: translateX(0%);
     }
 }
 
